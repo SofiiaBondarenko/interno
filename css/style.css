@@ -9,7 +9,6 @@
 
 body{
     font-family: "Jost", sans-serif;
-    line-height: 1.5;
 }
 
 .container{
@@ -46,26 +45,28 @@ body{
     padding-bottom: 260px;
     background-image: url(../img/herobg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    border-radius: 0px 0px 0px 290px;
 }
 
 .hero-title{
     width: 600px;
     font-family: "DM Serif Display";
     line-height: 1.2;
-    font-weight: 400;
     font-size: 80px;
-    letter-spacing: 0.22px;
     color: var(--text-color);
+    font-weight: 400;
 }
 
 .hero-subtitle{
     font-size: 22px;
     color: var(--descr-color);
-    letter-spacing: 0.22px;
     width: 600px;
     margin-top: 19px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .hero-btn{
@@ -74,6 +75,15 @@ body{
     border-radius: 18px;
     padding: 22px 56px;
     color: var(--main-color);
+    letter-spacing: 0.72px;
+}
+
+.hero-btn:hover{
+    margin-top: 35px;
+    background-color: var(--accent-color); 
+    border-radius: 18px;
+    padding: 22px 56px;
+    color: var(--text-color);
     letter-spacing: 0.72px;
 }
 
@@ -92,35 +102,148 @@ body{
 }
 
 .services-title{
+    letter-spacing: 0.22px;
+    font-weight: 400;
     font-family: "DM Serif Display";
     font-size: 25px;
-    font-weight: 400;
     color: var(--text-color);
     margin-bottom: 17px;
-    letter-spacing: 0.22px;
     line-height: 1.56;
 }
 
 .services-text{
     color: var(--descr-color);
     font-size: 22px;
-    letter-spacing: 0.22px;
     margin-bottom: 35px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .services-link{
     font-size: 18px;
     letter-spacing: 0.36px;
     color: var(--descr-color);
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .services-link:hover{
     color: var(--accent-color);
     letter-spacing: 0.36px;
     font-size: 18px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .about{
-    padding-top: 170px;
-    
+    margin-top: 170px;
+
+}
+
+.about-box{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 37px;
+    /* background-image: url(../img/aboutbg.jpg);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat; */
+}
+
+
+.about-title{
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    width: 450px;
+    color: var(--text-color);
+    font-size: 50px;
+    font-family: "DM Serif Display";
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.about-text{
+    width: 510px;
+    color: var(--descr-color);
+    font-size: 22px;
+    margin-bottom: 40px;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-tel{
+    color: var(--descr-color);
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-subtitle{
+    color: var(--descr-color);
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 0.22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.about-contacts {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-contacts::before{
+    content: "";
+    display: inline-block;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    background-color: var(--rewievs-bg-color);
+    background-image: url(../img/tel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 34px 34px;
+}
+
+.about-contacts-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-btn{
+    margin-top: 50px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: var(--main-color);
+    background: var(--text-color);
+    padding: 22px 50px;
+    letter-spacing: 0.72px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-btn:hover{
+    margin-top: 50px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: var(--text-color);
+    background: var(--accent-color);
+    padding: 22px 50px;
+    letter-spacing: 0.72px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.about-img{
+    width: 592px;
+    height: 635px;
+    border-radius: 0px 326px 0px 123px;
+    margin-left: 77px;
 }
