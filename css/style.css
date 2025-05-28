@@ -1,0 +1,126 @@
+:root{
+    --text-color: #292F36;
+    --accent-color: #CDA274;
+    --main-color: #ffffff;
+    --descr-color: #4D5053;
+    --rewievs-bg-color: #F4F0EC;
+    --details-color: #E7E7E7;
+}
+
+body{
+    font-family: "Jost", sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 1px solid red;
+}
+
+.header-link{
+    color: var(--text-color);
+    font-size: 19px;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.header-list{
+    display: flex;
+    margin-left: 505px;
+    gap: 40px;
+}
+
+.current{
+    color: var(--accent-color);
+}
+
+.hero{
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(../img/herobg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hero-title{
+    width: 600px;
+    font-family: "DM Serif Display";
+    line-height: 1.2;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 0.22px;
+    color: var(--text-color);
+}
+
+.hero-subtitle{
+    font-size: 22px;
+    color: var(--descr-color);
+    letter-spacing: 0.22px;
+    width: 600px;
+    margin-top: 19px;
+}
+
+.hero-btn{
+    margin-top: 35px;
+    background-color: var(--text-color); 
+    border-radius: 18px;
+    padding: 22px 56px;
+    color: var(--main-color);
+    letter-spacing: 0.72px;
+}
+
+.services{
+    padding-top: 175px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item{
+    text-align: center;
+    width: 307px;
+}
+
+.services-title{
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 17px;
+    letter-spacing: 0.22px;
+    line-height: 1.56;
+}
+
+.services-text{
+    color: var(--descr-color);
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    margin-bottom: 35px;
+}
+
+.services-link{
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: var(--descr-color);
+}
+
+.services-link:hover{
+    color: var(--accent-color);
+    letter-spacing: 0.36px;
+    font-size: 18px;
+}
+
+.about{
+    padding-top: 170px;
+    
+}
